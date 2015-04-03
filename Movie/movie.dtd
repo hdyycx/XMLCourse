@@ -1,0 +1,23 @@
+<!-- 
+
+    电影DTD
+
+-->
+
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (name, director+,actor+,year,score,pic,comments+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
+<!ELEMENT pic (#PCDATA)>
+<!ELEMENT comments (author,date,content)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST movie id CDATA #REQUIRED>
+<!ATTLIST actor name CDATA #REQUIRED
+				sex CDATA #REQUIRED
+				nationality CDATA #IMPLIED>
+

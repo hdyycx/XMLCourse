@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="team.xsl"?>
+<info>
+    <project>
+		<kind>Cartoon</kind>
+		<img>img/group-icon.jpg</img>
+		<introduce>XML课程——动漫项目</introduce>
+		<name>Weteam-wetwo</name>
+	</project>	
+	<team>
+		<teamimg src="img/team.jpg"/>
+		<introduce>
+			<key>小组介绍</key>
+			<value>
+			<p>毫无疑问这个小组不一定有技术含量</p>
+			<p>不一定有内涵，不一定文艺，不一定有特定话题</p>
+			<p>不一定好玩，不一定搞笑，不一定不一定。</p>
+			</value>
+		</introduce>
+	</team>
+	<members>
+		<subject>小组成员</subject>
+		<memberinfo>
+			<img src="img/wx.jpg"/>
+			<name>王秀</name>
+			<studentid>71112404</studentid>
+			<introduce>
+				<p>热爱文艺，不沉闷，酷爱摄影，古灵精怪，是个驴友，心思简单，随和稳重，兴趣广泛，工作稳定，幽默开朗，喜爱交友，善良可爱，说的都不是我，我是王家的兔子……</p>
+			</introduce>
+		</memberinfo>
+		<memberinfo>
+			<img  src="img/ssh.gif"/>
+			<name>孙森泓</name>
+			<studentid>71112207</studentid>
+			<introduce>
+				<p>现在正就读于东南大学软件学院。</p>
+				<p>为人坦率、热情、讲求原则；处事乐观、专心、细致、头脑清醒；富有责任心、乐于助人。</p>
+			</introduce>
+		</memberinfo>
+    </members>
+</info>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE team SYSTEM "teamIntro.dtd">
+<?xml-stylesheet type="text/xsl" href="teamIntro.xsl"?>
+<team>
+	<teaminfo>
+		<teamname>电影</teamname>
+		<teamlogo>img/logo.png</teamlogo>
+		<teamintro>一部电影,一次震撼;一卷胶片,一串记忆;一个人物,一段历程</teamintro>
+	</teaminfo>
+	<member>
+		<name Student_ID="71112103" sex="female">段逸轩</name>
+		<pic>img/doubao.jpg</pic>
+		<intro>我爱看电影，哦啦啦</intro>
+	</member>
+	<member>
+		<name Student_ID="71112314" sex="male">解鸿浩</name>
+		<pic>img/xhh.jpg</pic>
+		<intro>哦嘿嘿，我爱看电影</intro>
+	</member>
+</team>

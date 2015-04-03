@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT music (song*,singer*,album*)>
+	<!ELEMENT song (songname,attr,songid,songlyric,songsinger,songalbum,songsort,songurl,songdate,songclick)>
+	<!ELEMENT songname (#PCDATA)>
+	<!ELEMENT attr (price,amount,year,month,day)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT amount (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ELEMENT month (#PCDATA)>
+	<!ELEMENT day (#PCDATA)>
+	<!ELEMENT songid (#PCDATA)>
+	<!ELEMENT songlyric (#PCDATA)>
+	<!ELEMENT songsinger (singerlink*)>
+	<!ELEMENT singerlink (#PCDATA)>
+	<!ATTLIST singerlink url CDATA #REQUIRED>
+	<!ELEMENT songalbum (albumlink)>
+	<!ELEMENT albumlink (#PCDATA)>
+	<!ATTLIST albumlink url CDATA #REQUIRED>
+	<!ELEMENT songsort (#PCDATA)>
+	<!ELEMENT songurl (#PCDATA)>
+	<!ELEMENT songdate (#PCDATA)>
+	<!ELEMENT songclick (#PCDATA)>
+	<!ELEMENT singer (singername,attr,singerid,singerinfo,singersongs,singeralbums,singersort,singerpic)>
+	<!ELEMENT singername (#PCDATA)>
+	<!ELEMENT singerid (#PCDATA)>
+	<!ELEMENT singerinfo (#PCDATA)>
+	<!ELEMENT singersongs (songlink*)>
+	<!ELEMENT songlink (#PCDATA)>
+	<!ATTLIST songlink url CDATA #REQUIRED>
+	<!ELEMENT singeralbums (albumlink*)>
+	<!ELEMENT singersort (#PCDATA)>
+	<!ELEMENT singerpic (#PCDATA)>
+	<!ELEMENT album (albumname,attr,albuminfo,albumsongs,albumpic,albumsinger,albumcom,albumdate,albumsort)>
+	<!ELEMENT albumname (#PCDATA)>
+	<!ELEMENT albuminfo (#PCDATA)>
+	<!ELEMENT albumsongs (songlink*)>
+	<!ELEMENT albumpic (#PCDATA)>
+	<!ELEMENT albumsinger (singerlink*)>
+	<!ELEMENT albumcom (#PCDATA)>
+	<!ELEMENT albumdate (#PCDATA)>
+	<!ELEMENT albumsort (#PCDATA)>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE tvschedule [
+
+<!ELEMENT tvschedule (channel+)>
+
+<!ELEMENT channel (banner,day+)>
+
+<!ELEMENT banner (#PCDATA)>
+
+<!ELEMENT day (date,(holiday|programslot+)+)>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT holiday (#PCDATA)>
+
+<!ELEMENT programslot (time,title,description?)>
+
+<!ELEMENT time (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ATTLIST tvschedule name CDATA #REQUIRED>
+
+<!ATTLIST channel chan CDATA #REQUIRED>
+
+<!ATTLIST programslot vtr  CDATA #IMPLIED>
+
+<!ATTLIST title rating CDATA #IMPLIED>
+
+<!ATTLIST title language CDATA #IMPLIED>
+
+]>
+
+<tvschedule name="CCTV1">
+     <channel chan="体育">
+         <banner>友谊第一，比赛第二</banner>
+         <day>
+            <date>星期五</date>
+            <programslot>
+               <time>7:00-8:00</time>
+               <title rating="10%" language="chinese">中国VS美国</title>
+               <description>中国与美国的决战</description>
+            </programslot>
+             <programslot vtr="no">
+               <time>16:00-17:00</time>
+               <title rating="20%">中国VS韩国</title>
+               <description> OMG 与三星白的对抗</description>
+            </programslot>
+         </day>  
+
+         <day>
+            <date>星期六</date>
+            <programslot>
+               <time>9:00-10:00</time>
+               <title>中国S中国</title>
+               <description> EDG 战队与 OMG 战队的决赛</description>
+            </programslot>
+        </day>
+
+        <day>
+            <date>星期日</date>
+            <holiday>星期日休息</holiday>
+        </day>     
+     </channel>
+</tvschedule>
+
+

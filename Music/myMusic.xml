@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<Music>
+	<teamMessage>
+		<title>Our Music</title>
+		<producer>陈星辉，刘佳炽</producer>
+		<introduction>动心音乐，时刻与你相伴</introduction>
+	</teamMessage>
+	<teamers>
+		<teamer>
+			<name>陈星辉</name>
+			<sex>男</sex>
+			<number>71111223</number>
+		</teamer>
+		<teamer>
+			<name>刘佳炽</name>
+			<sex>男</sex>
+			<number>71112212</number>
+		</teamer>
+	</teamers>
+</Music>

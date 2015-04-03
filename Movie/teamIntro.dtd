@@ -1,0 +1,16 @@
+<!-- 
+
+    电影小组介绍DTD
+
+-->
+<!ELEMENT team (teaminfo,member+)>
+<!ELEMENT teaminfo (teamname,teamlogo,teamintro)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT teamlogo (#PCDATA)>
+<!ELEMENT teamintro (#PCDATA)>
+<!ELEMENT member (name,pic,intro)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT pic (#PCDATA)>
+<!ELEMENT intro (#PCDATA)>
+<!ATTLIST name  Student_ID CDATA #REQUIRED
+				sex CDATA #REQUIRED>

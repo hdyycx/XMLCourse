@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE movies SYSTEM "movie.dtd">
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<!--<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movie.xsd">
+-->
+<movies>
+	<movie id="1">
+		<name >模仿游戏</name>
+		<director>莫滕·泰杜姆</director>
+		<actor name="本尼迪克特·康伯巴奇 " sex="male" nationality="英国"></actor>
+		<actor name="凯拉·奈特莉" sex="female" nationality="英国"></actor>
+		<actor name="马修·古迪" sex="male" nationality="英国"></actor>
+		<year>2014-08-29</year>
+		<score>8.5</score>
+		<pic>img/1.jpg</pic>
+		<comments>
+			<author>阿呆者 </author>
+			<date>2015-01-09</date>
+			<content>借用一个木心的句子：别再提图灵了吧，他的死，使我们感到大家都是对不起他的。天才总天真、坦荡、毫不设防地迎向这个庸人占领的世界，一腔热诚付与世界，世界待他们，往往却是一盆脏水兜头浇下。有人说：人类社会进步得还是太慢了。嗯，或许吧。人类社会大约是进步了，但人性从未进步过。</content>
+		</comments>
+		<comments>
+			<author>同志亦凡人中文站</author>
+			<date>2014-12-25</date>
+			<content>他给机器起名“克里斯托弗”，因为这是他初恋的名字；他同意接受化学阉割，因为这样政府才不会将它带走：这大概是今年大银幕上最含蓄和悲伤的一段同性恋情。全世界的憎同者都应该知道，他们用来敲出每个恐同字眼的电脑在很多年前曾有一个名字——“克里斯托弗”。</content>
+		</comments>
+		<comments>
+			<author>Evan</author>
+			<date>2014-12-19</date>
+			<content>在一部高度浓缩的传记片里，我只能看到一个浑身贴满标签的孤僻，偏执，交流障碍的同性恋天才，看到他的经历和思想奇迹般的被剧情串联在一起，看到防空洞里的全民填字游戏，以及在战争和解密的夹缝中拼命挤出的一丝性向与性别平等的声音。如果只能以这种电影纪念的话，多年后他大概还会长出一张长脸吧…</content>
+		</comments>
+	</movie>
+	<movie id="2">
+		<name >归来</name>
+		<director>张艺谋</director>
+		<actor name="陈道明" sex="male" nationality="中国"></actor>
+		<actor name="巩俐" sex="female" nationality="中国"></actor>
+		<year>2014-05-16</year>
+		<score>7.7</score>
+		<pic>img/2.jpg</pic>
+		<comments>
+			<author>Andy</author>
+			<date>2014-04-18</date>
+			<content>岁月静好，一去不返；归去来兮，唯有不复蹉跎，爱存留，唯咏叹。</content>
+		</comments>
+		<comments>
+			<author>kakakarl</author>
+			<date>2014-05-04</date>
+			<content>原著粉表示：陈道明就是陆焉识，很赞。巩俐演技很好，但她不是原著中的婉喻。张慧雯也很好，她也不是原著里的丹钰，甚至名字和年龄设定都不一样了。所以把《陆犯焉识》改名为《归来》是很对的。电影更像是张艺谋巧妙的套着陆焉识讲了一个他的故事。看小说我曾泪流满面，但电影不能。</content>
+		</comments>
+	</movie>
+	<movie id="3">
+		<name >黄金时代</name>
+		<director>许鞍华</director>
+		<actor name="汤唯" sex="female" nationality="中国"></actor>
+		<actor name="冯绍峰" sex="male" nationality="中国"></actor>
+		<actor name="王志文" sex="male" nationality="中国"></actor>
+		<actor name="朱亚文" sex="male" nationality="中国"></actor>
+		<actor name="郝蕾" sex="female" nationality="中国"></actor>
+		<actor name="张译" sex="male" nationality="中国"></actor>
+		<actor name="田原" sex="female" nationality="中国"></actor>
+		<actor name="袁泉" sex="female" nationality="中国"></actor>
+		<actor name="冯雷" sex="male" nationality="中国"></actor>
+		<year></year>
+		<score></score>
+		<pic>img/3.jpg</pic>
+		<comments>
+			<author>不虞</author>
+			<date> 2014-09-25</date>
+			<content>这是一部很不“电影”的电影，像散文诗，像先锋话剧，像一个饱经沧桑的女人在你耳边呓语。许鞍华此次的尝试无疑是令人震惊的，从故事形式，结构安排，时序处理，直至赋予摄影机的意义都是格外反常规的。而最特别之处在于明明时刻运用着间离手法，却依旧让人有强烈的带入感。我给满分！</content>
+		</comments>
+	</movie>
+	<movie id="4">
+		<name >搏击俱乐部</name>
+		<director>大卫·芬奇</director>
+		<actor name="爱德华·诺顿 " sex="male" nationality="美国"></actor>
+		<actor name="布拉德·皮特 " sex="male" nationality="美国"></actor>
+		<actor name="海伦娜·伯翰·卡特" sex="female" nationality="美国"></actor>
+		<year>1999-10-15</year>
+		<score>9.0</score>
+		<pic>img/4.jpg</pic>
+		<comments>
+			<author>Lan~die</author>
+			<date>2006-10-07</date>
+			<content>一则极具颠覆性质的社会生活寓言.无能为力，无法改变现状，是现代生活中的癌症。虚无使人痛苦，使人希望借各种方式找回存在的真实感。然而现代人的精神悲剧就是，当他们自我搏斗、脱离了一种精神上的奴役的时候，不知不觉又进入了另一种奴役。影片自身所带有的一种不可言传的魔幻性与自我消解意味使它</content>
+		</comments>
+		<comments>
+			<author>影志</author>
+			<date>2007-05-11</date>
+			<content>抛开一切，重获自由。You met me at very strange time in my life. 天呐，今天才看完这部电影。佩服导演埋彩蛋的功力，特别那两个big nice cock，绝妙啊！</content>
+		</comments>
+		<comments>
+			<author>燃</author>
+			<date>2011-05-11</date>
+			<content>And when you look down, you’ll see tiny figures pounding corn, laying strips of venison on the empty carpool lane of some abandoned superhighway.</content>
+		</comments>
+	</movie>
+	<movie id="5">
+		<name >死亡诗社</name>
+		<director>彼得·威尔</director>
+		<actor name="罗宾·威廉姆斯" sex="male" nationality="美国"></actor>
+		<actor name="罗伯特·肖恩·莱纳德" sex="male" nationality="美国"></actor>
+		<actor name="伊桑·霍克 " sex="male" nationality="美国"></actor>
+		<year>1989-06-02</year>
+		<score>8.9</score>
+		<pic>img/5.jpg</pic>
+		<comments>
+			<author>路人X</author>
+			<date>2005-07-08</date>
+			<content>如果能遇到这样的老师，要积累多少的rp?</content>
+		</comments>
+		<comments>
+			<author>kingfish</author>
+			<date>2006-03-23</date>
+			<content>明明不是悲剧,就是不停的被感动着</content>
+		</comments>
+	</movie>
+	<movie id="6">
+		<name >西西里的美丽传说</name>
+		<director>朱塞佩·托纳多雷</director>
+		<actor name="莫妮卡·贝鲁奇 " sex="female" nationality="意大利"></actor>
+		<actor name="圭塞佩·苏尔法罗" sex="male" nationality="意大利"></actor>
+		<year>2000-10-27</year>
+		<score>8.6</score>
+		<pic>img/6.jpg</pic>
+		<comments>
+			<author>眠去</author>
+			<date>2007-02-12</date>
+			<content>“时光飞逝，我爱过许多女人，问我可否忆起她们，我说是的，我可记起你们，但唯一我不能忘怀的，是那个从未问过我的……玛莲娜”</content>
+		</comments>
+	</movie>
+	<movie id="7">
+		<name >猜火车</name>
+		<director>丹尼·博伊尔</director>
+		<actor name="伊万·麦克格雷格" sex="male" nationality="英国"></actor>
+		<actor name="艾文·布莱纳" sex="male" nationality="英国"></actor>
+		<actor name="约翰尼·李·米勒" sex="male" nationality="英国"></actor>
+		<actor name="罗伯特·卡莱尔" sex="male" nationality="英国"></actor>
+		<actor name=" 凯莉·麦克唐纳" sex="female" nationality="英国"></actor>
+		<year>1996-02-23</year>
+		<score>8.5</score>
+		<pic>img/7.jpg</pic>
+		<comments>
+			<author>毛驴哥</author>
+			<date>2005-12-26</date>
+			<content>令人惊艳的马桶</content>
+		</comments>
+		<comments>
+			<author>幽尾鸥</author>
+			<date>2007-01-17</date>
+			<content>开头：Choose your future, choose life, I chose not to choose life. 结尾：Getting by, looking ahead to the day you die.</content>
+		</comments>
+		<comments>
+			<author>江湖唱片麦田</author>
+			<date>2007-04-12</date>
+			<content>无政府主义者的朋克精神。</content>
+		</comments>
+		<comments>
+			<author>RIVERSDIARY</author>
+			<date> 2010-01-24</date>
+			<content>空虚</content>
+		</comments>
+		<comments>
+			<author>ayumiH</author>
+			<date>2007-09-19</date>
+			<content>PUNK青年最爱，不是PUNK青年也可以看，拍摄手法我很喜欢</content>
+		</comments>
+	</movie>
+</movies>

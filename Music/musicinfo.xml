@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./musicinfo.xsl"?>
+<?DOCTYPE music SYSTEM "./musicinfo.dtd"?>
+
+<!--
+<music xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\musicinfo.xsd">
+-->
+<music>
+	<songlist>
+		<song>
+			<songname>龙卷风</songname>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2014</year>
+				<month>4</month>
+				<day>1</day>
+			</attr>
+			<songid>1</songid>
+			<songlyric>爱像一阵风 吹完它就走 这样的节奏 谁都无可奈何 没有你以后 我灵魂失控 黑云在降落 我被它拖着走 静静悄悄默默离开 陷入了危险边缘baby~ 我的世界已狂风暴雨</songlyric>
+			<songsinger>
+				<singerlink url=""/>
+			</songsinger>
+			<songalbum>
+				<albumlink url=""/>
+			</songalbum>
+			<songsort>pop</songsort>
+			<songurl>wind.mp3</songurl>
+			<songdate>2000</songdate>
+			<songclick>100</songclick>
+		</song>
+		<song>
+			<songname>东南大学校歌</songname>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2014</year>
+				<month>4</month>
+				<day>5</day>
+			</attr>
+			<songid>2</songid>
+			<songlyric>东揽钟山紫气 北拥扬子银涛 六朝松下听箫韶 齐梁遗韵在 太学令名标 百载文枢江左 东南辈出英豪 海涵地负展宏韬 日新臻化境 四海领风骚</songlyric>
+			<songsinger>
+				<singerlink url=""/>
+			</songsinger>
+			<songalbum>
+				<albumlink url=""/>
+			</songalbum>
+			<songsort>classical</songsort>
+			<songurl>seu.mp3</songurl>
+			<songdate>2002</songdate>
+			<songclick>100</songclick>
+		</song>
+		<song>
+			<songname>国际歌</songname>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2011</year>
+				<month>5</month>
+				<day>8</day>
+			</attr>
+			<songid>3</songid>
+			<songlyric>起来，饥寒交迫的奴隶！ 起来，全世界受苦的人！ 满腔的热血已经沸腾， 要为真理而斗争！ 旧世界打个落花流水， 奴隶们起来，起来！ 不要说我们一无所有， 我们要做天下的主人！</songlyric>
+			<songsinger>
+				<singerlink url=""/>
+			</songsinger>
+			<songalbum>
+				<albumlink url=""/>
+			</songalbum>
+			<songsort>rock</songsort>
+			<songurl>international.mp3</songurl>
+			<songdate>1888</songdate>
+			<songclick>100</songclick>
+		</song>
+		<song>
+			<songname>燕园情</songname>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2014</year>
+				<month>3</month>
+				<day>19</day>
+			</attr>
+			<songid>1</songid>
+			<songlyric>红楼飞雪，一时英杰，先哲曾书写，爱国进步民主科学。忆昔长别，阳关千叠，狂歌曾竞夜，收拾山河待百年约。我们来自江南塞北，情系着城镇乡野；我们走向海角天涯，指点着三山五岳。我们今天东风桃李，用青春完成作业；我们明天巨木成林，让中华震惊世界。燕园情，千千结，问少年心事，眼底未名水，胸中黄河月</songlyric>
+			<songsinger>
+				<singerlink url=""/>
+			</songsinger>
+			<songalbum>
+				<albumlink url=""/>
+			</songalbum>
+			<songsort>classical</songsort>
+			<songurl>pku.mp3</songurl>
+			<songdate>2000</songdate>
+			<songclick>100</songclick>
+		</song>
+	</songlist>
+	<singerlist>
+		<singer>
+			<singername>周杰伦</singername>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2014</year>
+				<month>4</month>
+				<day>6</day>
+			</attr>
+			<singerid>1</singerid>
+			<singerinfo>台湾著名创作歌手，并为电视节目主持、导演、演员等</singerinfo>
+			<singersongs>
+				<songlink url=""/>
+			</singersongs>
+			<singeralbums>
+				<albumlink url=""/>
+			</singeralbums>
+			<singersort>流行</singersort>
+			<singerpic>jay.jpg</singerpic>
+		</singer>
+	</singerlist>
+	<albumlist>
+		<album>
+			<albumname>周杰伦</albumname>
+			<attr>
+				<price>100</price>
+				<amount>100</amount>
+				<year>2014</year>
+				<month>4</month>
+				<day>6</day>
+			</attr>
+			<albuminfo>（又名《周杰伦同名专辑》）是台湾歌手周杰伦第一张录音室专辑</albuminfo>
+			<albumsongs>
+				<songlink url=""/>
+			</albumsongs>
+			<albumpic/>
+			<albumsinger>
+				<singerlink url=""/>
+			</albumsinger>
+			<albumcom>台湾博德曼音乐</albumcom>
+			<albumdate>2000.1.1</albumdate>
+			<albumsort>流行</albumsort>
+		</album>
+	</albumlist>
+</music>

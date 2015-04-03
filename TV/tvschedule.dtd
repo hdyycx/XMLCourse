@@ -1,0 +1,35 @@
+<!-- 
+
+    电视节目表DTD
+
+-->
+
+<!ELEMENT tvschedule (channel+)>
+
+<!ELEMENT channel (banner,day+)>
+
+<!ELEMENT banner (#PCDATA)>
+
+<!ELEMENT day (date,(holiday|programslot+)+)>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT holiday (#PCDATA)>
+
+<!ELEMENT programslot (time,title,description?)>
+
+<!ELEMENT time (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ATTLIST tvschedule name CDATA #REQUIRED>
+
+<!ATTLIST channel chan CDATA #REQUIRED>
+
+<!ATTLIST programslot vtr  CDATA #IMPLIED>
+
+<!ATTLIST title rating CDATA #IMPLIED>
+
+<!ATTLIST title language CDATA #IMPLIED>

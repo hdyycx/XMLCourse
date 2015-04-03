@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="music">
+			<fo:region-body/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="music">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:list-block>
+				<fo:list-item>
+					<fo:list-item-label>
+						<fo:block>
+							
+						</fo:block>
+					</fo:list-item-label>
+					<fo:list-item-body>
+						<fo:block>
+						</fo:block>
+					</fo:list-item-body>
+				</fo:list-item>
+			</fo:list-block>
+			<fo:block-container absolute-position="fixed" top="6in" left="0.5in">
+				<fo:table table-layout="fixed">
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block>name</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>singer</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>type</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>song</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block>Tornado</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>Jay Zhou</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>popular</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block>wind.mp3</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block-container>
+			<fo:block-container absolute-position="fixed" width="2.1in" top="7in" left="0.5in">
+				<fo:block space-after="0.2in">
+					<fo:inline font-weight="bold">Group Member List</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline font-weight="bold">StudentNumber</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>71111223</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>71112212</fo:inline>
+				</fo:block>
+			</fo:block-container>
+			<fo:block-container absolute-position="fixed" width="2.1in" top="7in" left="2.6in">
+				<fo:block space-after="0.2in">
+					<fo:inline font-weight="bold">Name</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>Cheng XingHui</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>Liu JiaChi</fo:inline>
+				</fo:block>
+			</fo:block-container>
+			<fo:block-container absolute-position="fixed" width="2.1in" top="7in" left="4.7in">
+				<fo:block space-after="0.2in">
+					<fo:inline font-weight="bold">Role</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>Leader</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>Member</fo:inline>
+				</fo:block>
+			</fo:block-container>
+			<fo:block-container absolute-position="fixed" width="2.1in" top="7.0in" left="6.8in">
+				<fo:block space-after="0.2in">
+					<fo:inline font-weight="bold">Information</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>music</fo:inline>
+				</fo:block>
+				<fo:block space-after="0.2in">
+					<fo:inline>music</fo:inline>
+				</fo:block>
+			</fo:block-container>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

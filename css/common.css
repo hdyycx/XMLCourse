@@ -1,0 +1,20 @@
+body{
+	background-color: #BDC3C7;
+}
+.title{
+	font-size : 30px;
+	font-family: Microsoft YaHei;
+	color: #3498DB;
+}
+.text{
+	background-color: #ffffff;
+	font-family: Microsoft YaHei;
+}
+.introBlock{
+	margin:5% 0;
+}
+.footStyle{
+	font-size : 20px;
+	font-family: Microsoft YaHei;
+	text-align:center;
+}

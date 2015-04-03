@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Cartoon2.0.xsl"?>
+<catalog>
+	<project>
+		<kind>Cartoon</kind>
+		<img>img/group-icon.jpg</img>
+		<introduce>XML课程——动漫项目</introduce>
+		<name>Weteam-wetwo</name>
+	</project>
+
+	<cartoon id="C001" play_url="http://www.tudou.com/albumcover/Lqfme5hSolM.html" evaluate="8">
+		<name>火影忍者</name>
+		<author>
+			<aname>岸本齐史</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="冒险"/>
+		<type typeInfo="格斗"/>
+		<region regionInfo="日本"/>
+		<picture src="img/cartoonpic/hyrz.jpg"/>
+		<year yearInfo="00年代"/>
+		<num_of_set>624</num_of_set>
+		<intrduce> 十多年前一只拥有巨大威力的妖兽“九尾妖狐”袭击了木叶忍者村，当时的第四代火影拼尽全力，以自己的生命为代价将“九尾妖狐”封印在了刚出生的鸣人身上。木叶村终于恢复了平静，但村民们却把鸣人当成像“九尾妖狐”那样的怪物看待，所有人都疏远他。鸣人自小就孤苦无依，一晃十多年过去了，少年鸣人考入了木叶村的忍者学校，结识了好朋友佐助和小樱。佐助是宇智波家族的传人之一，当他还是小孩的时候他的哥哥——一个已经拥有高超忍术的忍者将他们家族的人都杀死了，然后投靠了一直想将木叶村毁灭的大蛇丸，佐助自小就发誓要超越哥哥，为家族报仇。鸣人他们在忍者学校得到了教官卡卡西的精心指点，在他的帮助下去迎接成长中的一次又一次挑战！ </intrduce>
+		<protagonist>名人</protagonist>
+	</cartoon>
+	<cartoon id="C002" play_num="3973219175" evaluate="柯南应该是一个神话般的动画片了。十几年后还会有我这样的人深陷其中不可自拔。所谓魔法就是这样吧。即使重复着已经看滥的推理，观众们都知道最不可能的那个人一定是凶手，即使柯南小哀永远都上着帝丹小学一年级，即使服部和叶还是.........">
+		<name>名侦探柯南</name>
+		<author>
+			<aname>青山刚昌</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="刑侦"/>
+		<type typeInfo="冒险"/>
+		<region regionInfo="日本"/>
+		<picture src="img/cartoonpic/mztkn.jpg"/>
+		<year yearInfo="90年代"/>
+		<num_of_set>775</num_of_set>
+		<intrduce> 高中生侦探工藤新一，被称为“日本警察的救世主”、“平成年代的福尔摩斯”。一次在与青梅竹马的女友毛利兰去游乐园游玩时，发现两个行动诡异的黑衣人。新一跟踪他们直到交易现场，另一个黑衣人趁其不注意从后面将他一棒击倒，并灌下一种名为APTX4869的神秘毒药企图杀他灭口，但因为副作用他的身体竟回到发育期的孩童状态。考虑到要是黑衣人知道他还活着的话，必将使周围的亲朋好友受到牵连，于是新一化名为“江户川柯南”，寄住在毛利兰的家中，想借助其父亲、担任侦探的毛利小五郎的力量来找寻黑衣人。 </intrduce>
+		<protagonist>柯南</protagonist>
+	</cartoon>
+	<cartoon id="C003" play_num="4933219175" evaluate="好棒！">
+		<name>海贼王</name>
+		<author>
+			<aname>尾田荣一郎</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="冒险"/>
+		<region regionInfo="日本"/>
+		<picture src="img/cartoonpic/hzw.jpg"/>
+		<year yearInfo="90年代"/>
+		<num_of_set>684</num_of_set>
+		<intrduce> 传奇海盗哥尔·D·罗杰在临死前曾留下关于其毕生的财富“One Piece”的消息，由此引得群雄并起，众海盗们为了这笔传说中的巨额财富展开争夺，各种势力、政权不断交替，整个世界进入了动荡混乱的“大海贼时代”。生长在东海某小村庄的路飞受到海贼香克斯的精神指引，决定成为一名出色的海盗。为了达成这个目标，并找到万众瞩目的One Piece，路飞踏上艰苦的旅程。一路上他遇到了无数磨难，也结识了索隆、娜美、乌索普、香吉、罗宾等一众性格各异的好友。他们携手一同展开充满传奇色彩的大冒险。 </intrduce>
+		<protagonist>路飞</protagonist>
+	</cartoon>
+	<cartoon id="C004" play_num="2956219175" evaluate="好棒！">
+		<name>蜡笔小新</name>
+		<author>
+			<aname>臼井仪人</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="搞笑"/>
+		<region regionInfo="日本"/>
+		<picture src="img/cartoonpic/lbxx.jpg"/>
+		<year yearInfo="90年代"/>
+		<num_of_set>156</num_of_set>
+		<intrduce> 小新是一个年仅５岁，正在幼儿园上学的小男孩。他内心早熟，喜欢欣赏并向美女搭讪。最初小新与父亲广志和母亲美伢组成一个三人家族。随后又添加了流浪狗小白，日子频繁琐碎却不乏温馨感动。随着故事展开，又加入了新的成员妹妹野原葵。作者臼井仪人从日常生活中的故事取材，叙述小新在日常生活中所发生的事情。小新是一个有点调皮的小孩，他喜欢别出心裁，富于幻想。  </intrduce>
+		<protagonist>小新</protagonist>
+	</cartoon>
+</catalog>
