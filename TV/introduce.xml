@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="team.xsl"?>
+<info>
+    <project>
+		<kind>TV program</kind>
+		<img>img/group-icon.png</img>
+		<introduce>XML课程——电视项组</introduce>
+	</project>	
+	<team>
+		<introduce>
+			<key>小组介绍</key>
+			<value>
+			<p>我们电视小组的人都爱打lol</p>
+			<p>并且一个是教练，一个是神坑队友</p>
+			<p>电视节目，自然是给大家带来LOL的比赛啦</p>
+			</value>
+		</introduce>
+	</team>
+	<members>
+		<subject>小组成员</subject>
+		<memberinfo>
+			<img src="img/ws.png"/>
+			<name>王烁</name>
+			<studentid>71112330</studentid>
+			<introduce>
+				<p>现役职业最棒adc和上单/臭名昭著的抠比/业界未公认pm/不写代码但生产代码</p>
+			</introduce>
+		</memberinfo>
+		<memberinfo>
+			<img  src="img/fyz.png"/>
+			<name>范宜臻</name>
+			<studentid>71112311</studentid>
+			<introduce>
+				<p>现在正就读于东南大学软件学院。</p>
+				<p>热爱lol，热爱篮球，热爱健身，据说现在已经练出了沟</p>
+			</introduce>
+		</memberinfo>
+    </members>
+</info>
+

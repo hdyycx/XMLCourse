@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="TV2.0.xsl"?>
+<catalog>
+	<project>
+		<kind>TVPrograme</kind>
+		<introduce>XML课程——电视项目</introduce>
+	</project>
+
+	<cartoon id="C001" evaluate="8">
+		<name>OMG战队历史</name>
+		<author>
+			<aname>oh my god</aname>
+			<profession proInfo="职业"/>
+		</author>
+		<type typeInfo="人气"/>
+		<type typeInfo="格斗"/>
+		<region regionInfo="中国"/>
+		<picture src="img/tv/omg.jpg"/>
+		<year yearInfo="00年代"/>
+		<num_of_set>624</num_of_set>
+		<intrduce> OMG电子竞技俱乐部，CHINA网络传媒旗下机构，全称为：OH MY GOD，OMG战队是国内最强的LOL战队之一，。在S3职业联赛春季赛里表现出众，在夏季赛里垄断联赛。战胜了国内数一数二战队如：WE、IG等。实力不容忽视，现已成为中国英雄联盟比赛最大的一匹黑马。并且成功拿到s3全球总决赛名额。在A组赛中连续击败了TSM（两次）、SKT1、LD（两次）和GG（两次），获得了七连胜，最后一局输给了SKT1并进入8强，在淘汰赛又0:2输给了皇族。2013年WCG成都中国总决赛里又获得冠军。在2014英雄联盟职业联赛春季赛上继续保持第一，并出席了巴黎的2014英雄联盟全明星赛。 </intrduce>
+		<protagonist>大哥灵药</protagonist>
+	</cartoon>
+	<cartoon id="C002" play_num="3973219175" evaluate="">
+		<name>EDG登上巅峰</name>
+		<author>
+			<aname>edward game</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="游戏"/>
+		<type typeInfo="冒险"/>
+		<region regionInfo="中韩"/>
+		<picture src="img/tv/edg.jpg"/>
+		<year yearInfo="10年代"/>
+		<num_of_set>775</num_of_set>
+		<intrduce> 2014年2月，广州EDG电子竞技俱乐部正式收购LMQ.TC电子竞技俱乐部，并将取代原LMQ战队参加2月份的英雄联盟职业联赛（LPL），EDG官方微博也陆续公布了队中的阵容。
+	EDG和WE在之前曾经有过合作的意向，但因为WE的原因最终不了了之。EDG的纸面实力毋庸置疑，诺言和卷毛在WE打出了自己的一片天，ADC娜美也是国内外玩家最为认可的世界级ADC之一。 </intrduce>
+		<protagonist>厂长</protagonist>
+	</cartoon>
+	<cartoon id="C003" evaluate="好棒！">
+		<name>思聪IG队</name>
+		<author>
+			<aname>I Game</aname>
+			<profession proInfo="漫画家"/>
+		</author>
+		<type typeInfo="冒险"/>
+		<region regionInfo="中韩"/>
+		<picture src="img/tv/ig.jpg"/>
+		<year yearInfo="10年代"/>
+		<num_of_set>684</num_of_set>
+		<intrduce> Invictus Gaming（以下简称iG）是一家以电子竞技及周边业务为核心、旗下有多名国内顶级电子竞技选手的平台，iG的目标之一是打造全球顶级电竞俱乐部。iG已整合前CCM电竞俱乐部Dota2（刀塔）、星际争霸2（SC2）、英雄联盟（LOL）、《炉石传说》项目所有队员。IG电子竞技俱乐部是一家以电子竞技及周边业务为核心，iG的目标之一是打造全球顶级电竞俱乐部。由北京普思投资董事长、万达集团董事王思聪于2011年8月2日凌晨在微博上宣布，自己将强势进入电子竞技，并整合电子竞技。同时收购国内新豪门CCM战队，更名为iG（Invictus Gaming) </intrduce>
+		<protagonist>KAKao</protagonist>
+	</cartoon>
+	<cartoon id="C004"  evaluate="好棒！">
+		<name>Snake战队的崛起</name>
+		<author>
+			<aname>新人的发力</aname>
+			<profession proInfo="职业"/>
+		</author>
+		<type typeInfo="新人"/>
+		<region regionInfo="中韩"/>
+		<picture src="img/tv/snake.png"/>
+		<year yearInfo="2013"/>
+		<num_of_set>156</num_of_set>
+		<intrduce> Snake电子竞技俱乐部成立于2013年9月11日，旗下SnakeQ队由2014年3月组建，年轻、阳光、活力、拼搏是Snake选手的代言词，俱乐部通过努力，在2014年6月至8月的比赛中，实现了三级联赛TGA城市英雄争霸赛—二级联赛LSPL英雄联盟甲级联赛—最高级别赛事LPL英雄联盟职业联赛的黑马三级跳的壮举!  </intrduce>
+		<protagonist>蛇队</protagonist>
+	</cartoon>
+</catalog>
+
