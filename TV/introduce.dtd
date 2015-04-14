@@ -1,0 +1,14 @@
+<!-- 
+
+     TVPrograme introduction DTD
+
+-->
+<!ELEMENT team (teaminfo,memberinfo+)>
+<!ELEMENT teaminfo (teamname,description)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT memberinfo (name,img,studentid,introduce)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT studentid (#PCDATA)>
+<!ELEMENT introduce (#PCDATA)>

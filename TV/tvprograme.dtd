@@ -1,0 +1,27 @@
+<!-- 
+
+      TVPrograme DTD
+
+-->
+
+<!ELEMENT tv (TVPrograme+)>
+<!ELEMENT TVPrograme (name, author+,region,year,num_of_set,picture,intrduce,protagonist)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT num_of_set (#PCDATA)>
+<!ELEMENT picture (#PCDATA)>
+<!ELEMENT author (teamname,profession)>
+<!ELEMENT intrduce (#PCDATA)>
+<!ELEMENT protagonist (#PCDATA)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT profession (#PCDATA)>
+<!ATTLIST TVPrograme id CDATA #REQUIRED>
+<!ATTLIST profession proInfo CDATA #IMPLIED>
+<!ATTLIST region regionInfo CDATA #IMPLIED>
+<!ATTLIST year yearInfo CDATA #IMPLIED>
+<!ATTLIST actor name CDATA #REQUIRED
+				sex CDATA #REQUIRED
+				nationality CDATA #IMPLIED>
+
