@@ -18,3 +18,9 @@ body{
 	font-family: Microsoft YaHei;
 	text-align:center;
 }
+#logo{
+/*	position: relative;*/
+	position: absolute;
+	right: 20px; 
+	top: 0px; 
+}
