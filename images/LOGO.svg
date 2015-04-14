@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+		<svg xmlns="http://www.w3.org/2000/svg" > 
+          <polygon points="122 59,72 205,194 114,49 114,171 205"
+            style="fill-rule: nonzero; fill: #CFC; stroke: #000"/>
+          <text x="90" y="240" style="fill: #090; font-size: 16px">
+            WE_TEAM</text>
+    </svg>
