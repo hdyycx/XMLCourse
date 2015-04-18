@@ -4,8 +4,8 @@
 <!--<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movie.xsd">
 -->
 <movies>
-	<movie id="1">
-		<name >模仿游戏</name>
+	<movie id="1" publishTime="2014-08-01">
+		<name >The Imitation Game 模仿游戏</name>
 		<director>莫滕·泰杜姆</director>
 		<actor name="本尼迪克特·康伯巴奇 " sex="male" nationality="英国"></actor>
 		<actor name="凯拉·奈特莉" sex="female" nationality="英国"></actor>
@@ -29,8 +29,8 @@
 			<content>在一部高度浓缩的传记片里，我只能看到一个浑身贴满标签的孤僻，偏执，交流障碍的同性恋天才，看到他的经历和思想奇迹般的被剧情串联在一起，看到防空洞里的全民填字游戏，以及在战争和解密的夹缝中拼命挤出的一丝性向与性别平等的声音。如果只能以这种电影纪念的话，多年后他大概还会长出一张长脸吧…</content>
 		</comments>
 	</movie>
-	<movie id="2">
-		<name >归来</name>
+	<movie id="2" publishTime="2014-04-01">
+		<name >Coming Home 归来</name>
 		<director>张艺谋</director>
 		<actor name="陈道明" sex="male" nationality="中国"></actor>
 		<actor name="巩俐" sex="female" nationality="中国"></actor>
@@ -48,8 +48,8 @@
 			<content>原著粉表示：陈道明就是陆焉识，很赞。巩俐演技很好，但她不是原著中的婉喻。张慧雯也很好，她也不是原著里的丹钰，甚至名字和年龄设定都不一样了。所以把《陆犯焉识》改名为《归来》是很对的。电影更像是张艺谋巧妙的套着陆焉识讲了一个他的故事。看小说我曾泪流满面，但电影不能。</content>
 		</comments>
 	</movie>
-	<movie id="3">
-		<name >黄金时代</name>
+	<movie id="3" publishTime="2014-09-01">
+		<name >Golden Times 黄金时代</name>
 		<director>许鞍华</director>
 		<actor name="汤唯" sex="female" nationality="中国"></actor>
 		<actor name="冯绍峰" sex="male" nationality="中国"></actor>
@@ -61,7 +61,7 @@
 		<actor name="袁泉" sex="female" nationality="中国"></actor>
 		<actor name="冯雷" sex="male" nationality="中国"></actor>
 		<year></year>
-		<score></score>
+		<score>7.8</score>
 		<pic>img/3.jpg</pic>
 		<comments>
 			<author>不虞</author>
@@ -69,8 +69,8 @@
 			<content>这是一部很不“电影”的电影，像散文诗，像先锋话剧，像一个饱经沧桑的女人在你耳边呓语。许鞍华此次的尝试无疑是令人震惊的，从故事形式，结构安排，时序处理，直至赋予摄影机的意义都是格外反常规的。而最特别之处在于明明时刻运用着间离手法，却依旧让人有强烈的带入感。我给满分！</content>
 		</comments>
 	</movie>
-	<movie id="4">
-		<name >搏击俱乐部</name>
+	<movie id="4" publishTime="2005-05-01">
+		<name >Fight Club搏击俱乐部</name>
 		<director>大卫·芬奇</director>
 		<actor name="爱德华·诺顿 " sex="male" nationality="美国"></actor>
 		<actor name="布拉德·皮特 " sex="male" nationality="美国"></actor>
@@ -94,8 +94,8 @@
 			<content>And when you look down, you’ll see tiny figures pounding corn, laying strips of venison on the empty carpool lane of some abandoned superhighway.</content>
 		</comments>
 	</movie>
-	<movie id="5">
-		<name >死亡诗社</name>
+	<movie id="5" publishTime="2004-07-01">
+		<name >Dead Poets Society 死亡诗社</name>
 		<director>彼得·威尔</director>
 		<actor name="罗宾·威廉姆斯" sex="male" nationality="美国"></actor>
 		<actor name="罗伯特·肖恩·莱纳德" sex="male" nationality="美国"></actor>
@@ -114,8 +114,8 @@
 			<content>明明不是悲剧,就是不停的被感动着</content>
 		</comments>
 	</movie>
-	<movie id="6">
-		<name >西西里的美丽传说</name>
+	<movie id="6" publishTime="2006-03-01">
+		<name >Malèna 西西里的美丽传说</name>
 		<director>朱塞佩·托纳多雷</director>
 		<actor name="莫妮卡·贝鲁奇 " sex="female" nationality="意大利"></actor>
 		<actor name="圭塞佩·苏尔法罗" sex="male" nationality="意大利"></actor>
@@ -128,8 +128,8 @@
 			<content>“时光飞逝，我爱过许多女人，问我可否忆起她们，我说是的，我可记起你们，但唯一我不能忘怀的，是那个从未问过我的……玛莲娜”</content>
 		</comments>
 	</movie>
-	<movie id="7">
-		<name >猜火车</name>
+	<movie id="7" publishTime="2014-05-13">
+		<name >Trainspotting 猜火车</name>
 		<director>丹尼·博伊尔</director>
 		<actor name="伊万·麦克格雷格" sex="male" nationality="英国"></actor>
 		<actor name="艾文·布莱纳" sex="male" nationality="英国"></actor>

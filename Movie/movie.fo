@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" >
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="movie" size="A4">
+            <fo:region-body margin-top="1.0cm" margin-left="1.0cn" margin-right="1.0cm" margin-bottom="1.5cm"/>
+            <fo:region-before extent="1.72cm" display-align="after" />
+            <fo:region-after extent="5cm"/>
+            <fo:region-start extent="5cm"/>
+            <fo:region-end extent="1.0cm"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    
+    <fo:page-sequence master-reference="movie">
+       <fo:flow flow-name="xsl-region-body" font-family="Microsoft YaHei" font-size="12pt">
+            <fo:block-container text-align="center">
+            <fo:block font-size="16pt">The Imitation Game</fo:block>
+			<fo:block><fo:external-graphic src="url(img/top.png)" content-height="0.3cm" scaling="uniform"/></fo:block>
+			<fo:block><fo:external-graphic src="url(img/1.jpg)" content-height="2.25in" scaling="uniform"/></fo:block>
+			<fo:block>director:Morten Tyldum</fo:block>
+			<fo:block>score:8.5</fo:block>
+			</fo:block-container>
+			
+			
+			<fo:block-container text-align="center">
+            <fo:block font-size="16pt">Coming Home</fo:block>
+			<fo:block><fo:external-graphic src="url(img/top.png)" content-height="0.3cm" scaling="uniform"/></fo:block>
+			<fo:block><fo:external-graphic src="url(img/2.jpg)" content-height="2.25in" scaling="uniform"/></fo:block>
+			<fo:block>director:Yimo Zhang</fo:block>
+			<fo:block>score:7.7</fo:block>
+			</fo:block-container>
+			
+			<fo:block-container text-align="center">
+            <fo:block font-size="16pt">Golden Times</fo:block>
+			<fo:block><fo:external-graphic src="url(img/top.png)" content-height="0.3cm" scaling="uniform"/></fo:block>
+			<fo:block><fo:external-graphic src="url(img/3.jpg)" content-height="2.25in" scaling="uniform"/></fo:block>
+			<fo:block>director:Xu Anhua</fo:block>
+			<fo:block>score:7.8</fo:block>
+			</fo:block-container>
+			
+        </fo:flow>    
+    </fo:page-sequence>
+</fo:root>

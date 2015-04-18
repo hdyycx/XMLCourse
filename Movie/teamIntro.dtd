@@ -10,7 +10,7 @@
 <!ELEMENT teamintro (#PCDATA)>
 <!ELEMENT member (name,pic,intro)>
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT pic (#PCDATA)>
-<!ELEMENT intro (#PCDATA)>
 <!ATTLIST name  Student_ID CDATA #REQUIRED
 				sex CDATA #REQUIRED>
+<!ELEMENT pic (#PCDATA)>
+<!ELEMENT intro (#PCDATA)>
